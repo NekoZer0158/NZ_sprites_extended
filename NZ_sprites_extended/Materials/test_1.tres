@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://bqccsaec6uw3"]
+
+[ext_resource type="Shader" uid="uid://b1h23db2crjsd" path="res://NZ_sprites_extended/Materials/Shaders/test_1.gdshader" id="1_gdyt4"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_gdyt4")

@@ -1,0 +1,13 @@
+Основа:
+	Sprite2D_extended/Sprite3D_extended - имеет массив (sprite_resources) ресурсов класса Sprite_resource.
+	Sprite_resource - класс ресурсов, которые должны быть помещены в массив sprite_resources.
+	Во время запуска функции узла _ready() функции с аналогичным названием в sprite_resources будут 
+	запущены с аргументов в виде указателя на узел (Sprite2D или Sprite3D, в зависимости от того, что
+	используете).
+
+Sprite resources:
+	SR_frame_random - случайный кадр/flip_h/flip_v.
+	SR_FR_percent - случайный кадр/flip_h/flip_v с процентным шансом случайности.
+	SR_material_random - случайный material для Sprite2D/material_override или material_overlay для Sprite3D.
+	SR_rotation_random - случайный поворот в градусах.
+	SR_texture_random - случайная текстура.

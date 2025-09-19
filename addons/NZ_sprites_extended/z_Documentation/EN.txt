@@ -1,0 +1,12 @@
+Main:
+	Sprite2D_extended/Sprite3D_extended - has an array (sprite_resources) with a resources of class Sprite_resource.
+	Sprite_resource - resource class, that should be puted in sprite_resources.
+	When calling _ready(), a function with the same name in sprite_resources will be called with a pointer
+	to the sprite as an argument (Sprite2D or Sprite3D, depending on what you use).
+
+Sprite resources:
+	SR_frame_random - random frame/flip_h/flip_v.
+	SR_FR_percent - random frame/flip_h/flip_v with percent chance for this to happen.
+	SR_material_random - random material for Sprite2D/material_override or material_overlay for Sprite3D.
+	SR_rotation_random - random rotation in degrees.
+	SR_texture_random - random texture.

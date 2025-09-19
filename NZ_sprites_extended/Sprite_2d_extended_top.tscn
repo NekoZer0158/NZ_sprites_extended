@@ -1,0 +1,40 @@
+[gd_scene load_steps=12 format=3 uid="uid://bofqopcodg4x7"]
+
+[ext_resource type="Texture2D" uid="uid://drrwb4rl6kvj1" path="res://icon.png" id="1_0s1aa"]
+[ext_resource type="Script" uid="uid://uq1cybbcs25s" path="res://addons/NZ_sprites_extended/Scripts/Sprite2D_extended.gd" id="2_0hge8"]
+[ext_resource type="Script" uid="uid://dyjudgcv20q6m" path="res://NZ_sprites_extended/Sprite_resource.gd" id="3_1ouf8"]
+[ext_resource type="Script" uid="uid://d4n4t8uvi57pn" path="res://addons/NZ_sprites_extended/Scripts/Resources/SR_texture_random.gd" id="4_ygvsy"]
+[ext_resource type="Texture2D" uid="uid://b300dhfp0cuak" path="res://NZ_sprites_extended/Textures/icon_2.png" id="5_dqbmx"]
+[ext_resource type="Texture2D" uid="uid://dwxo5mpqtsri0" path="res://NZ_sprites_extended/Textures/icon_3.png" id="6_g5e7d"]
+[ext_resource type="Script" uid="uid://co5q5httcrdj7" path="res://addons/NZ_sprites_extended/Scripts/Resources/SR_frame_random.gd" id="7_dpy3v"]
+[ext_resource type="Script" uid="uid://bfhkro12v7uvx" path="res://addons/NZ_sprites_extended/Scripts/Resources/SR_rotation_random.gd" id="8_tv76l"]
+
+[sub_resource type="Resource" id="Resource_g2rq0"]
+script = ExtResource("4_ygvsy")
+textures = Array[Texture2D]([ExtResource("5_dqbmx"), ExtResource("6_g5e7d")])
+metadata/_custom_type_script = "uid://d4n4t8uvi57pn"
+
+[sub_resource type="Resource" id="Resource_bovkg"]
+script = ExtResource("7_dpy3v")
+exclude_frames = Array[int]([2])
+flip_h_random = true
+flip_v_random = true
+metadata/_custom_type_script = "uid://co5q5httcrdj7"
+
+[sub_resource type="Resource" id="Resource_5p0qc"]
+Resource = null
+resource_path = "res://NZ_sprites_extended/Sprite_2d_extended_top.tscn::Resource_5p0qc"
+resource_scene_unique_id = "Resource_5p0qc"
+script = ExtResource("8_tv76l")
+type = 1
+allowed_degrees = Array[float]([0.0, 30.0, 330.0])
+metadata/_custom_type_script = "uid://bfhkro12v7uvx"
+
+[node name="Sprite2D_extended" type="Sprite2D"]
+texture = ExtResource("1_0s1aa")
+centered = false
+hframes = 2
+vframes = 2
+script = ExtResource("2_0hge8")
+sprite_resources = Array[ExtResource("3_1ouf8")]([SubResource("Resource_g2rq0"), SubResource("Resource_bovkg"), SubResource("Resource_5p0qc")])
+metadata/_custom_type_script = "uid://uq1cybbcs25s"

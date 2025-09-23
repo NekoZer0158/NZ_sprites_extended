@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://drrwb4rl6kvj1" path="res://icon.png" id="1_5pbal"]
 [ext_resource type="Script" uid="uid://b3gw4ofxa3kng" path="res://addons/NZ_sprites_extended/Scripts/Sprite3D_extended.gd" id="2_nyh2q"]
-[ext_resource type="Script" uid="uid://dyjudgcv20q6m" path="res://NZ_sprites_extended/Sprite_resource.gd" id="3_r1an7"]
+[ext_resource type="Script" uid="uid://dyjudgcv20q6m" path="res://addons/NZ_sprites_extended/Scripts/Sprite_resource.gd" id="3_r1an7"]
 [ext_resource type="Script" uid="uid://d4n4t8uvi57pn" path="res://addons/NZ_sprites_extended/Scripts/Resources/SR_texture_random.gd" id="4_4sf2k"]
 [ext_resource type="Texture2D" uid="uid://b300dhfp0cuak" path="res://NZ_sprites_extended/Textures/icon_2.png" id="5_mrsgy"]
 [ext_resource type="Texture2D" uid="uid://dwxo5mpqtsri0" path="res://NZ_sprites_extended/Textures/icon_3.png" id="6_6h5kr"]

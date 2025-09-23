@@ -3,5 +3,7 @@ Makes sprites use modules at the start. Random rotation, texture, frame, and mat
 
 ## Changelog
 
+### 1.1
+	IMPORTANT FIX, the main script for this plugin was in the wrong place, now it was fixed
 ### 1.0
 	Release

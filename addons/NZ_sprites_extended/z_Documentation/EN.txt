@@ -10,3 +10,4 @@ Sprite resources:
 	SR_material_random - random material for Sprite2D/material_override or material_overlay for Sprite3D.
 	SR_rotation_random - random rotation in degrees.
 	SR_texture_random - random texture.
+	SR_visibility_random - radom visibility.
